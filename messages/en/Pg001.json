@@ -1,0 +1,27 @@
+{
+  "nav_pg001": "Home",
+  "nav_pg002": "Our Strengths",
+  "nav_pg003": "About Us",
+  "nav_pg004": "Business Overview",
+  "nav_pg005": "Contact Us",
+  "nav_pg006": "Internal Board",
+  "language_toggle": "Language",
+  "pg001_button_learn_more": "Learn More",
+  "footer_copyright": "ALL RIGHTS RESERVED © hakuu-tech Co., Ltd.",
+  "pg001_title": "Guiding the Future with Insight and expertise",
+  "pg001_subtitle": "Delivering integrated services across IT, tourism, and human resources.",
+  "pg001_news_title": "News",
+  "pg001_news_items": [
+    "2023.07.20 Company Established",
+    "2025.05.01 New Office Opened in Nihonbashi"
+  ],
+  "pg001_intro_title": "About hakuu-tech Co., Ltd.",
+  "pg001_intro_paragraph": "Based in Shinjuku, Tokyo, Kingen provides  IT development, staffing services, and tourism planning. We are committed to building sustainable value for clients both domestic and abroad.",
+  "pg001_features_title": "Three Reasons to Choose Us",
+  "pg001_feature1_title": "Integrated Business Solutions",
+  "pg001_feature1_desc": "One-stop service combining IT, HR, and tourism expertise.",
+  "pg001_feature2_title": "Global Reach with Local Roots",
+  "pg001_feature2_desc": "Multilingual and international support with local expertise.",
+  "pg001_feature3_title": "Trusted Presence in Shinjuku",
+  "pg001_feature3_desc": "A stable and growing business rooted in the heart of Tokyo."
+}

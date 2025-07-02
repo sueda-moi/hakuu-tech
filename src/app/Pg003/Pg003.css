@@ -1,0 +1,80 @@
+/* Pg003.css */
+.pg003-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+  font-family: 'Noto Sans', sans-serif;
+  background-color: #fff;
+  color: #111;
+}
+
+.pg003-section-title {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  border-left: 6px solid #1e40af;
+  padding-left: 1rem;
+  color: #1e3a8a;
+}
+
+/* Mission Grid */
+.pg003-mission-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+.pg003-mission-text {
+  flex: 1 1 50%;
+}
+
+.pg003-mission-text h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.pg003-mission-text ul {
+  padding-left: 1.5rem;
+  list-style-type: disc;
+  margin-top: 0.5rem;
+}
+
+.pg003-mission-image {
+  flex: 1 1 40%;
+  text-align: center;
+}
+
+.pg003-about-section,
+.pg003-philosophy-section {
+  margin-top: 4rem;
+}
+
+.pg003-about-list {
+  list-style: none;
+  padding: 0;
+  font-size: 1rem;
+  line-height: 2;
+}
+
+.pg003-philosophy-section p {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  margin-top: 1rem;
+  white-space: pre-line;
+  color: #333;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .pg003-mission-grid {
+    flex-direction: column;
+  }
+
+  .pg003-mission-image {
+    width: 100%;
+    overflow: hidden;
+  }
+}

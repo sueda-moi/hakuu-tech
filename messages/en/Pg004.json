@@ -1,0 +1,73 @@
+{
+  "pg004_section_main": "Our Business",
+  "pg004_main_items": [
+    { "id": "it_development", "label": "System Development & IT Services" },
+    { "id": "web_solution", "label": "Web Production & Operation Support" },
+    { "id": "staffing", "label": "Staffing & SES Services" },
+    { "id": "global_biz", "label": "B2B Partner Solutions" },
+    { "id": "startup", "label": "Startup Technology Support" },
+    { "id": "tourism", "label": "Tourism Planning & Events" }
+  ],
+  "pg004_section_solution": "Solution & Collaboration",
+  "pg004_solution_items": [
+    { "id": "solution", "label": "IT Strategy Proposals" },
+    { "id": "collab", "label": "Multinational Network Utilization" }
+  ],
+  "pg004_section_evolution": "Evolution",
+  "pg004_evolution_items": [
+    { "id": "dx", "label": "Promoting Digital Transformation" },
+    { "id": "newbiz", "label": "Challenging New Business Fields" }
+  ],
+  "pg004_title": "Business Overview",
+  "pg004_hero_subtitle": "Kingen Corporation Business Portfolio",
+  "pg004_sections": {
+    "it_development": {
+      "title": "System Development & IT Services",
+      "cards": [
+        "Design and development of business systems and cloud infrastructure",
+        "Construction and maintenance of EC sites and apps",
+        "Cloud integration support including AWS and Azure"
+      ]
+    },
+    "web_solution": {
+      "title": "Web Production & Operation Support",
+      "cards": [
+        "Corporate websites and landing page design",
+        "Multilingual CMS-based website implementation",
+        "Maintenance and UI/UX improvement consulting"
+      ]
+    },
+    "staffing": {
+      "title": "Staffing & SES Services",
+      "cards": [
+        "Dispatch of IT engineers and web designers",
+        "Bilingual staffing support in Japanese, Chinese, and English",
+        "Flexible assignment for in-house or contracted roles"
+      ]
+    },
+    "global_biz": {
+      "title": "B2B Partner Solutions",
+      "cards": [
+        "Support for global partnerships and dev team structuring",
+        "Multinational team-based project execution",
+        "Contract, interpretation, and translation assistance"
+      ]
+    },
+    "startup": {
+      "title": "Startup Technology Support",
+      "cards": [
+        "Support for MVP development and tech stack planning",
+        "Tech infrastructure setup before/after funding",
+        "Joint prototyping and co-development support"
+      ]
+    },
+    "tourism": {
+      "title": "Tourism Planning & Events",
+      "cards": [
+        "Inbound tours for overseas visitors",
+        "Tourism events leveraging local resources",
+        "Promotional collaboration with local governments and companies"
+      ]
+    }
+  }
+}

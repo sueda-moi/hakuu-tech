@@ -1,0 +1,52 @@
+{
+  "pg005_title": "Frequently Asked Questions",
+  "pg005_contact": "Contact Us",
+  "faq_categories": [
+    {
+      "title": "About IT Development & System Services",
+      "questions": [
+        "What programming languages and tech stacks do you support?",
+        "What’s included in your cloud implementation support?",
+        "Can you maintain and upgrade existing systems?",
+        "Do you provide security and backup solutions?"
+      ]
+    },
+    {
+      "title": "About Web Production & Operation",
+      "questions": [
+        "How long does it take to build a website?",
+        "Do you support CMS implementation and multilingual sites?",
+        "Can you assist with SEO and UI/UX improvements?",
+        "Can you renovate our existing website?"
+      ]
+    },
+    {
+      "title": "About Staffing & SES Services",
+      "questions": [
+        "What kind of engineers and designers can you dispatch?",
+        "Do you support remote or short-term assignments?",
+        "Can you provide bilingual or multilingual staff?",
+        "What is the difference between SES and outsourcing?"
+      ]
+    },
+    {
+      "title": "About Startup & B2B Support",
+      "questions": [
+        "What is MVP development for startups?",
+        "How do you manage collaborations with overseas companies?",
+        "Do you support translation or interpretation of contracts?",
+        "What is the process to start a partnership?"
+      ]
+    }
+  ],
+  "form_title": "Contact Us",
+  "form_name_label": "Your Name (required)",
+  "form_email_label": "Email Address",
+  "form_phone_label": "Phone Number",
+  "form_message_label": "Message (up to 500 characters)",
+  "form_submit": "Submit",
+  "form_close": "Close",
+  "form_error": "Please fill in all required fields",
+  "form_success": "Your message has been successfully sent.",
+  "form_fail": "Failed to send. Please try again later."
+}

@@ -1,0 +1,191 @@
+/* Pg004.css */
+.pg004-wrapper {
+  position: relative;
+  padding-top: 64px;
+  font-family: 'Noto Sans JP', sans-serif;
+  background-color: #fff;
+}
+
+.pg004-submenu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: #f5f5f5;
+  padding: 2rem 1rem;
+  border-bottom: 1px solid #ccc;
+}
+
+.submenu-section h3 {
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.submenu-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.submenu-section li {
+  margin-bottom: 0.5rem;
+}
+
+.submenu-section a {
+  color: #444;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: color 0.3s ease;
+}
+
+.submenu-section a.active,
+.submenu-section a:hover {
+  color: #1a73e8;
+  font-weight: bold;
+}
+
+.pg004-hero {
+  position: relative;
+  height: 400px;
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 3rem;
+}
+
+.pg004-hero-image {
+  object-fit: cover;
+  z-index: 0;
+}
+
+.pg004-hero-text {
+  position: absolute;
+  bottom: 2rem;
+  left: 2rem;
+  color: white;
+  z-index: 2;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 1rem 2rem;
+  border-radius: 8px;
+}
+
+.pg004-hero-text h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+.pg004-body {
+  padding: 2rem 4rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.pg004-body h2 {
+  font-size: 1.75rem;
+  margin-top: 4rem;
+  margin-bottom: 1.5rem;
+  border-left: 5px solid #1a73e8;
+  padding-left: 1rem;
+}
+
+.pg004-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.pg004-card {
+  background-color: #fafafa;
+  padding: 1.5rem;
+  border-radius: 8px;
+  flex: 1 1 calc(50% - 1.5rem);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.pg004-card.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.pg004-top-btn {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  background-color: #1a73e8;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.25rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  z-index: 999;
+  transition: background-color 0.3s ease;
+}
+
+.pg004-top-btn:hover {
+  background-color: #0c5dc0;
+}
+
+@media (max-width: 768px) {
+  /* 子菜单折叠或隐藏 */
+  .pg004-submenu {
+    display: none;
+  }
+
+  /* Hero 区字体调小，文字位置上移 */
+  .pg004-hero-text {
+    bottom: 15%;
+    left: 5%;
+    padding: 0 1rem;
+    text-align: left;
+  }
+
+  .pg004-hero-text h1 {
+    font-size: 1.6rem;
+  }
+
+  .pg004-hero-text p {
+    font-size: 1rem;
+  }
+
+  /* 卡片布局改为单列或两列 */
+  .pg004-grid {
+    grid-template-columns: 1fr; /* 或改为 1fr 1fr 看内容宽度 */
+    gap: 1rem;
+    padding: 0 1rem;
+  }
+
+.pg004-body{
+   padding: 0.5rem 1rem;
+}
+
+
+  .pg004-card {
+    font-size: 0.95rem;
+    padding: 1rem;
+    border-radius: 8px;
+  }
+
+  /* 标题缩小 */
+  h2[id] {
+    font-size: 1.3rem;
+    margin-top: 2rem;
+  }
+
+  /* 返回顶部按钮缩小一点 */
+  .pg004-top-btn {
+    right: 1rem;
+    bottom: 1rem;
+    padding: 0.4rem 0.6rem;
+    font-size: 1.2rem;
+  }
+}
+

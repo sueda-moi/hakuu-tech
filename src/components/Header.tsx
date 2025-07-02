@@ -1,0 +1,123 @@
+'use client';
+
+import React, { useEffect, useState } from 'react';
+import Image from 'next/image';
+import Link from 'next/link';
+import { usePathname } from 'next/navigation';
+import { FiAlignJustify, FiX } from 'react-icons/fi';
+import LanguageSwitcher from './LanguageSwitcher/LanguageSwitcher';
+import { useMessage } from '@/lib/useMessage';
+
+
+import './Header.css';
+
+interface HeaderProps {
+  isMenuOpen: boolean;
+  toggleMenu: () => void;
+}
+
+const Header: React.FC<HeaderProps> = ({ isMenuOpen, toggleMenu }) => {
+  const getMessage = useMessage();
+  const pathname = usePathname();
+  const [isMobile, setIsMobile] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    if (isMobile && isMenuOpen) {
+      toggleMenu();
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [pathname]);
+
+
+
+  useEffect(() => {
+    const handleResize = () => setIsMobile(window.innerWidth < 768);
+    handleResize();
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
+
+  useEffect(() => {
+    const handleScroll = () => setScrolled(window.scrollY > 50);
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
+  const navItems = [
+    { path: '/Pg001', label: getMessage('Pg001', 'nav_pg001') },
+    { path: '/Pg002', label: getMessage('Pg001', 'nav_pg002') },
+    { path: '/Pg003', label: getMessage('Pg001', 'nav_pg003') },
+    { path: '/Pg004', label: getMessage('Pg001', 'nav_pg004') },
+    { path: '/Pg005', label: getMessage('Pg001', 'nav_pg005') },
+  ];
+
+  return (
+    <>
+      <header className={`custom-header ${scrolled ? 'scrolled' : ''}`}>
+        <div className="custom-header-inner">
+          <div className="logo-group">
+            <Image src="/image/headerImg.png" alt="Logo" width={50} height={50} />
+            {!isMobile && <span className="company-name">博宇テクノロジ一株式会社</span>}
+          </div>
+
+          {!isMobile && (
+            <nav className="nav-menu">
+              {navItems.map((item) =>
+                pathname === item.path ? (
+                  <span key={item.path} className="nav-item active">
+                    {item.label}
+                  </span>
+                ) : (
+                  <Link key={item.path} href={item.path} className="nav-item">
+                    {item.label}
+                  </Link>
+                )
+              )}
+            </nav>
+          )}
+
+          <div className="header-right">
+            {!isMobile && <LanguageSwitcher scrolled={scrolled} />}
+            {isMobile && (
+              <button className="menu-toggle" onClick={toggleMenu}>
+                {isMenuOpen ? <FiX size={28} /> : <FiAlignJustify size={28} />}
+              </button>
+            )}
+          </div>
+        </div>
+      </header>
+
+      {/* 移动端全屏菜单浮层 */}
+      {isMobile && isMenuOpen && (
+        <div className="mobile-menu-overlay">
+          <div className="mobile-menu-content">
+            <button className="close-button" onClick={toggleMenu}>
+              <FiX size={28} />
+            </button>
+            <nav className="mobile-nav-menu">
+              {navItems.map((item) =>
+                pathname === item.path ? (
+                  <span key={item.path} className="nav-item active">
+                    {item.label}
+                  </span>
+                ) : (
+                  <Link key={item.path} href={item.path} className="nav-item">
+                    {item.label}
+                  </Link>
+                )
+              )}
+            </nav>
+
+            <div className="mobile-language-switcher">
+              <LanguageSwitcher scrolled={false} />
+            </div>
+
+          </div>
+        </div>
+      )}
+    </>
+  );
+};
+
+export default Header;
