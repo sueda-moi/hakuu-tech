@@ -10,12 +10,15 @@
   "pg003_about_title": "About Kingen",
   "pg003_about_items": [
     "Company Name: Kingen Co., Ltd.",
-    "Address: 508-5 Tsurumakicho, Waseda, Shinjuku-ku, Tokyo, Japan",
+    "Address: City Heights Nihonbashi 202, 1-12-7 Bakurocho, Nihonbashi, Chuo-ku, Tokyo 103-0002, Japan",
     "Established: September 5, 2024 (Reiwa 6)",
     "Capital: 100 million JPY",
     "Representative: Chen Fagen",
     "Registration Number: 0111-01-108741"
   ],
   "pg003_philosophy_title": "Our Philosophy",
-  "pg003_philosophy_text": "At Kingen Co., Ltd., we leverage multicultural perspectives and technological capabilities to provide value across system development, talent support, and community initiatives. We are committed to sincere, reliable partnerships for mutual growth."
+  "pg003_philosophy_text": "At Kingen Co., Ltd., we leverage multicultural perspectives and technological capabilities to provide value across system development, talent support, and community initiatives. We are committed to sincere, reliable partnerships for mutual growth.",
+  "pg003_mission_title_label": "Our Mission",
+  "pg003_vision_title_label": "Our Vision",
+  "pg003_value_title_label": "Our Value"
 }
