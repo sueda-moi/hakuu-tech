@@ -1,106 +1,75 @@
 {
-  "pg004_section_main": "Our Business",
-  "pg004_section_solution": "Solution & Collaboration",
-  "pg004_section_evolution": "Evolution",
-  "pg004_main_items": [
-    {
-      "id": "it_development",
-      "label": "System Development & IT Services"
-    },
-    {
-      "id": "web_solution",
-      "label": "Web Production & Operation Support"
-    },
-    {
-      "id": "staffing",
-      "label": "Staffing & SES Services"
-    },
-    {
-      "id": "global_biz",
-      "label": "B2B Partner Solutions"
-    },
-    {
-      "id": "startup",
-      "label": "Startup Technology Support"
-    },
-    {
-      "id": "tourism",
-      "label": "Tourism Planning & Events"
-    }
-  ],
-  "pg004_solution_items": [
-    {
-      "id": "solution",
-      "label": "IT Strategy Proposals"
-    },
-    {
-      "id": "collab",
-      "label": "Multinational Network Utilization"
-    }
-  ],
-  "pg004_evolution_items": [
-    {
-      "id": "dx",
-      "label": "Promoting Digital Transformation"
-    },
-    {
-      "id": "newbiz",
-      "label": "Challenging New Business Fields"
-    }
-  ],
-  "pg004_title": "Business Overview",
-  "pg004_hero_subtitle": "Kingen Corporation Business Portfolio",
+  "pg004_section_main": "Core Businesses",
+  "pg004_section_solution": "Solutions",
+  "pg004_section_evolution": "Business Synergy",
+  "pg004_title": "Our Businesses",
+  "pg004_hero_subtitle": "Hakuu Technology Co., Ltd. Business Introduction",
   "pg004_sections": {
-    "it_development": {
-      "title": "System Development & IT Services",
+    "consulting": {
+      "title": "Investment & M&A",
+      "category": "main",
       "cards": [
-        "Design and development of business systems and cloud infrastructure",
-        "Construction and maintenance of EC sites and apps",
-        "Cloud integration support including AWS and Azure"
+        "Strategic investment in companies and growth support consulting.",
+        "Support for M&A strategy formulation and execution, corporate valuation.",
+        "Advisory on business succession and capital alliances."
       ]
     },
-    "web_solution": {
-      "title": "Web Production & Operation Support",
+    "real_estate_sales": {
+      "title": "Real Estate Business",
+      "category": "main",
       "cards": [
-        "Corporate websites and landing page design",
-        "Multilingual CMS-based website implementation",
-        "Maintenance and UI/UX improvement consulting"
+        "Brokerage for sales and leasing of investment properties, asset consulting.",
+        "Property management, comprehensive management and maintenance of buildings and apartments.",
+        "Planning and proposals for effective real estate utilization."
       ]
     },
-    "staffing": {
-      "title": "Staffing & SES Services",
+    "housing": {
+      "title": "Accommodation & Dining",
+      "category": "main",
       "cards": [
-        "Dispatch of IT engineers and web designers",
-        "Bilingual staffing support in Japanese, Chinese, and English",
-        "Flexible assignment for in-house or contracted roles"
+        "Planning, operation, and consulting for hotels, inns, and private rentals.",
+        "Management and brand development for restaurants, cafes, and bars.",
+        "Facility maintenance and operational improvement support."
       ]
     },
-    "global_biz": {
-      "title": "B2B Partner Solutions",
+    "international_trade": {
+      "title": "International Trade & E-commerce",
+      "category": "main",
       "cards": [
-        "Support for global partnerships and dev team structuring",
-        "Multinational team-based project execution",
-        "Contract, interpretation, and translation assistance"
-      ]
-    },
-    "startup": {
-      "title": "Startup Technology Support",
-      "cards": [
-        "Support for MVP development and tech stack planning",
-        "Tech infrastructure setup before/after funding",
-        "Joint prototyping and co-development support"
+        "Import/export, wholesale, and sales of various products and raw materials.",
+        "Support for building global supply chains.",
+        "Construction and operation of e-commerce (EC) sites using the internet."
       ]
     },
     "tourism": {
-      "title": "Tourism Planning & Events",
+      "title": "Travel Business",
+      "category": "main",
       "cards": [
-        "Inbound tours for overseas visitors",
-        "Tourism events leveraging local resources",
-        "Promotional collaboration with local governments and companies"
+        "Planning and arrangement for domestic and international travel (individual & group).",
+        "Creation and operation of experiential tours for inbound tourists.",
+        "General domestic and international travel agency services."
+      ]
+    },
+    "it_consulting": {
+      "title": "Technology Consulting",
+      "category": "solution",
+      "cards": [
+        "Formulation of IT strategies aligned with business strategies.",
+        "Technology selection and architecture design for new businesses.",
+        "Support for DX (Digital Transformation) of business processes."
+      ]
+    },
+    "solution": {
+      "title": "Creating Comprehensive Solutions",
+      "category": "evolution",
+      "cards": [
+        "Providing one-stop solutions through collaboration between businesses.",
+        "New business development by combining knowledge from different industries.",
+        "Comprehensive management support from a multifaceted perspective."
       ]
     }
   },
-  "pg004_section_main-phone": "Our Business",
-  "pg004_section_solution-phone": "Solution & Collaboration",
-  "pg004_section_evolution-phone": "Evolution"
+  "pg004_section_main-phone": "Core Businesses",
+  "pg004_section_solution-phone": "Solutions",
+  "pg004_section_evolution-phone": "Business Synergy"
 }

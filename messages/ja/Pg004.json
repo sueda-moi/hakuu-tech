@@ -1,146 +1,75 @@
 {
-  "pg004_section_main": "事業内容",
-  "pg004_section_solution": "ソリューションと連携",
-  "pg004_section_evolution": "進化",
-  "pg004_main_items": [
-    {
-      "id": "it_development",
-      "label": "システム開発・ITサービス"
-    },
-    {
-      "id": "web_solution",
-      "label": "Web制作・運用支援"
-    },
-    {
-      "id": "staffing",
-      "label": "人材派遣・SES事業"
-    },
-    {
-      "id": "global_biz",
-      "label": "BtoBパートナー支援"
-    },
-    {
-      "id": "startup",
-      "label": "スタートアップ技術支援"
-    },
-    {
-      "id": "tourism",
-      "label": "観光企画・イベント"
-    }
-  ],
-  "pg004_solution_items": [
-    {
-      "id": "solution",
-      "label": "ITの提案"
-    },
-    {
-      "id": "collab",
-      "label": "多国籍ネットワーク活用"
-    }
-  ],
-  "pg004_evolution_items": [
-    {
-      "id": "dx",
-      "label": "業務のDX推進"
-    },
-    {
-      "id": "newbiz",
-      "label": "新事業への挑戦"
-    }
-  ],
+  "pg004_section_main": "主要事業",
+  "pg004_section_solution": "ソリューション",
+  "pg004_section_evolution": "事業シナジー",
   "pg004_title": "事業紹介",
-  "pg004_hero_subtitle": "金源株式会社の事業紹介",
+  "pg004_hero_subtitle": "博宇テクノロジー株式会社の事業紹介",
   "pg004_sections": {
-    "it_development": {
-      "title": "システム開発・ITサービス",
+    "consulting": {
+      "title": "投資・M&A事業",
       "category": "main",
       "cards": [
-        "業務システム・クラウドインフラの設計・開発",
-        "ECサイトやアプリケーションの構築・保守",
-        "AWS・Azure等のクラウド導入支援"
+        "企業への戦略的投資、成長支援コンサルティング",
+        "M&A戦略の策定・実行支援、企業価値評価",
+        "事業承継、資本提携に関するアドバイザリー"
       ]
     },
-    "web_solution": {
-      "title": "Web制作・運用支援",
+    "real_estate_sales": {
+      "title": "不動産事業",
       "category": "main",
       "cards": [
-        "企業Webサイト・ランディングページのデザイン制作",
-        "CMS導入と多言語サイト構築",
-        "Web保守・UI/UX改善コンサルティング"
+        "収益不動産の売買・賃貸仲介、資産コンサルティング",
+        "プロパティマネジメント、ビル・マンションの総合管理・メンテナンス",
+        "不動産の有効活用に関する企画・提案"
       ]
     },
-    "staffing": {
-      "title": "人材派遣・SES事業",
+    "housing": {
+      "title": "宿泊・飲食事業",
       "category": "main",
       "cards": [
-        "ITエンジニア・Webデザイナーの派遣",
-        "日本語・中国語・英語に対応可能なバイリンガル人材紹介",
-        "受託・常駐案件への柔軟なアサイン体制"
+        "ホテル・旅館・民泊施設の企画、運営、コンサルティング",
+        "レストラン・カフェ・バーの経営、ブランド開発",
+        "施設メンテナンス、オペレーション改善支援"
       ]
     },
-    "global_biz": {
-      "title": "BtoBパートナー支援",
+    "international_trade": {
+      "title": "国際貿易・EC事業",
       "category": "main",
       "cards": [
-        "海外企業との業務提携・開発体制構築支援",
-        "多国籍チームによるプロジェクト推進",
-        "国際契約・通訳・翻訳のサポート"
-      ]
-    },
-    "startup": {
-      "title": "スタートアップ技術支援",
-      "category": "main",
-      "cards": [
-        "MVP開発・技術選定の支援",
-        "資金調達前後の技術基盤整備",
-        "共同開発・プロトタイプ実装の伴走支援"
+        "各種製品・原材料の輸出入および卸売・販売",
+        "グローバルサプライチェーンの構築支援",
+        "インターネットを活用した通信販売（EC）サイトの構築・運営"
       ]
     },
     "tourism": {
-      "title": "観光企画・イベント",
+      "title": "旅行事業",
       "category": "main",
       "cards": [
-        "訪日外国人向けツアーの企画・運営",
-        "地域資源を活かした観光イベントプロデュース",
-        "自治体・民間企業との観光PR連携"
+        "国内・海外旅行の企画、手配（個人・団体）",
+        "インバウンド向け体験型ツアーの造成・運営",
+        "一般・国内旅行代理店業務全般"
+      ]
+    },
+    "it_consulting": {
+      "title": "テクノロジーコンサルティング",
+      "category": "solution",
+      "cards": [
+        "事業戦略に沿ったIT戦略の策定",
+        "新規事業における技術選定・アーキテクチャ設計",
+        "業務プロセスのDX（デジタル変革）支援"
       ]
     },
     "solution": {
-      "title": "ITの提案",
-      "category": "solution",
-      "cards": [
-        "業務プロセスの可視化と最適化提案",
-        "SaaS導入・業務改善支援"
-      ]
-    },
-    "collab": {
-      "title": "多国籍ネットワーク活用",
-      "category": "solution",
-      "cards": [
-        "日中英バイリンガル体制での国際協業支援",
-        "東南アジア拠点との技術連携"
-      ]
-    },
-    "dx": {
-      "title": "業務のDX推進",
+      "title": "総合ソリューションの創出",
       "category": "evolution",
       "cards": [
-        "紙業務のデジタル化",
-        "AI・RPA導入による業務自動化"
-      ]
-    },
-    "newbiz": {
-      "title": "新事業への挑戦",
-      "category": "evolution",
-      "cards": [
-        "Web3やXR領域での技術検証",
-        "新規事業の技術PoC支援"
+        "各事業の連携によるワンストップ・ソリューションの提供",
+        "異業種の知見を組み合わせた新規事業開発",
+        "複合的な視点からの総合的な経営支援"
       ]
     }
   },
-
-
-  "pg004_section_main-phone": "事業内容",
-  "pg004_section_solution-phone": "ソリューションと連携",
-  "pg004_section_evolution-phone": "進化"
+  "pg004_section_main-phone": "主要事業",
+  "pg004_section_solution-phone": "ソリューション",
+  "pg004_section_evolution-phone": "事業シナジー"
 }

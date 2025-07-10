@@ -1,106 +1,75 @@
 {
   "pg004_section_main": "主要业务",
-  "pg004_section_evolution": "持续发展",
-  "pg004_section_solution": "解决方案与合作",
-  "pg004_main_items": [
-    {
-      "id": "it_development",
-      "label": "系统开发与IT服务"
-    },
-    {
-      "id": "web_solution",
-      "label": "网站制作与运维支持"
-    },
-    {
-      "id": "staffing",
-      "label": "人才派遣与技术外包"
-    },
-    {
-      "id": "global_biz",
-      "label": "B端合作伙伴支持"
-    },
-    {
-      "id": "startup",
-      "label": "初创企业技术支持"
-    },
-    {
-      "id": "tourism",
-      "label": "旅游企划与活动运营"
-    }
-  ],
-  "pg004_solution_items": [
-    {
-      "id": "solution",
-      "label": "IT领域整体提案"
-    },
-    {
-      "id": "collab",
-      "label": "多国籍网络协同"
-    }
-  ],
-  "pg004_evolution_items": [
-    {
-      "id": "dx",
-      "label": "推进业务数字化转型"
-    },
-    {
-      "id": "newbiz",
-      "label": "挑战新兴事业领域"
-    }
-  ],
+  "pg004_section_solution": "解决方案",
+  "pg004_section_evolution": "业务协同",
   "pg004_title": "业务介绍",
-  "pg004_hero_subtitle": "金源株式会社的业务全貌",
+  "pg004_hero_subtitle": "博宇科技有限公司 业务介绍",
   "pg004_sections": {
-    "it_development": {
-      "title": "系统开发与IT服务",
+    "consulting": {
+      "title": "投资与并购业务",
+      "category": "main",
       "cards": [
-        "业务系统与云基础设施的设计与开发",
-        "电子商务与应用系统的建设与维护",
-        "支持 AWS / Azure 等云服务平台的导入"
+        "对企业的战略性投资与成长支持咨询",
+        "并购（M&A）战略的制定与执行支持、企业价值评估",
+        "关于业务继承和资本合作的顾问服务"
       ]
     },
-    "web_solution": {
-      "title": "网站制作与运维支持",
+    "real_estate_sales": {
+      "title": "房地产业务",
+      "category": "main",
       "cards": [
-        "企业官网与落地页的设计与制作",
-        "支持CMS的多语言网站构建",
-        "网站运维与UI/UX改进咨询"
+        "收益性房地产的买卖与租赁中介、资产咨询",
+        "物业管理、写字楼与公寓的综合管理及维护",
+        "关于房地产有效利用的策划与提案"
       ]
     },
-    "staffing": {
-      "title": "人才派遣与技术外包",
+    "housing": {
+      "title": "住宿与餐饮业务",
+      "category": "main",
       "cards": [
-        "派遣 IT 工程师、Web 设计师等专业人才",
-        "提供中日英三语支持的双语人才",
-        "灵活配合外包与驻场项目"
+        "酒店、日式旅馆、民宿设施的策划、运营及咨询",
+        "餐厅、咖啡馆、酒吧的经营与品牌开发",
+        "设施维护与运营改善支持"
       ]
     },
-    "global_biz": {
-      "title": "B端合作伙伴支持",
+    "international_trade": {
+      "title": "国际贸易与电商业务",
+      "category": "main",
       "cards": [
-        "协助海外企业建立开发体制与业务合作",
-        "多国籍团队推进跨境项目",
-        "提供国际合同、口译与翻译支持"
-      ]
-    },
-    "startup": {
-      "title": "初创企业技术支持",
-      "cards": [
-        "支持 MVP 开发与技术选型",
-        "帮助筹资前后构建技术基础",
-        "伴随式推进原型开发与联合研发"
+        "各类产品与原材料的进出口及批发、销售",
+        "全球供应链的构建支持",
+        "利用互联网的电商（EC）网站的构建与运营"
       ]
     },
     "tourism": {
-      "title": "旅游企划与活动运营",
+      "title": "旅游业务",
+      "category": "main",
       "cards": [
-        "面向访日游客的定制旅行与团体接待",
-        "结合在地资源策划旅游活动",
-        "与地方政府及企业合作进行观光推广"
+        "国内与海外旅行的策划与安排（个人・团体）",
+        "面向入境游客的体验型旅游产品的开发与运营",
+        "一般及国内旅行社的全方位服务"
+      ]
+    },
+    "it_consulting": {
+      "title": "技术咨询",
+      "category": "solution",
+      "cards": [
+        "制定符合业务战略的IT战略",
+        "新业务中的技术选定与架构设计",
+        "业务流程的数字化转型（DX）支持"
+      ]
+    },
+    "solution": {
+      "title": "创造综合解决方案",
+      "category": "evolution",
+      "cards": [
+        "通过各业务联动提供一站式解决方案",
+        "结合不同行业知识进行新业务开发",
+        "从复合视角提供综合性经营支持"
       ]
     }
   },
   "pg004_section_main-phone": "主要业务",
-  "pg004_section_solution-phone": "持续发展",
-  "pg004_section_evolution-phone": "解决方案与合作"
+  "pg004_section_solution-phone": "解决方案",
+  "pg004_section_evolution-phone": "业务协同"
 }

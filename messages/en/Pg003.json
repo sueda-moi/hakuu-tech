@@ -1,24 +1,23 @@
 {
   "pg003_mission_title": "Mission & Vision",
-  "pg003_mission": "To become a trusted multicultural technology partner connecting Japan and the world.",
-  "pg003_vision": "To establish a next-generation service model integrating system development, global talent, and regional revitalization for a sustainable society.",
+  "pg003_mission": "To drive the sustainable growth of our clients and society by creating innovative value through the fusion of expert knowledge across diverse business domains.",
+  "pg003_vision": "To become a leading next-generation conglomerate by building a unique business ecosystem that transcends the boundaries of investment, technology, real estate, and services.",
   "pg003_value": [
-    "Respect Differences, Build Bridges",
-    "Act with Integrity and Ownership",
-    "Deliver Reliable, Culturally-Aware Solutions"
+    "Build trust with integrity at our core.",
+    "Continuously challenge the status quo.",
+    "Maximize synergy between our businesses."
   ],
-  "pg003_about_title": "About Kingen",
+  "pg003_about_title": "Company Profile",
   "pg003_about_items": [
-    "Company Name: Kingen Co., Ltd.",
-    "Address: City Heights Nihonbashi 202, 1-12-7 Bakurocho, Nihonbashi, Chuo-ku, Tokyo 103-0002, Japan",
-    "Established: September 5, 2024 (Reiwa 6)",
-    "Capital: 100 million JPY",
-    "Representative: Chen Fagen",
-    "Registration Number: 0111-01-108741"
+    "Company Name: Hakuu Technology Co., Ltd.",
+    "Head Office: 1-3-5 Akasaka, Minato-ku, Tokyo 107-0052, Japan",
+    "Established: July 20, 2023",
+    "Corporate Number: 0104-01-175947",
+    "Business Activities: Investment & consulting, real estate, accommodation, food & beverage, trade, internet services, travel agency, and all other related business activities."
   ],
   "pg003_philosophy_title": "Our Philosophy",
-  "pg003_philosophy_text": "At Kingen Co., Ltd., we leverage multicultural perspectives and technological capabilities to provide value across system development, talent support, and community initiatives. We are committed to sincere, reliable partnerships for mutual growth.",
+  "pg003_philosophy_text": "Hakuu Technology Co., Ltd. centers its business on investment, M&A, and technology consulting, while also operating in a wide range of fields closely tied to daily life and the economy, such as real estate, tourism, trade, and dining. Our strength lies in the synergy created by combining the knowledge and networks of professionals in each field. In this era of rapid change, we strive to always anticipate our clients' needs and forge the future together as a trusted partner.",
   "pg003_mission_title_label": "Our Mission",
   "pg003_vision_title_label": "Our Vision",
-  "pg003_value_title_label": "Our Value"
+  "pg003_value_title_label": "Our Values"
 }
