@@ -35,7 +35,7 @@ const Pg003: React.FC = () => {
           </div>
 
           <div className="pg003-mission-image">
-            <Image src="/image/company_people.jpg" alt="Company Team" width={500} height={360} />
+            <Image src="/image/pg003_people.jpg" alt="Company Team" width={500} height={360} />
           </div>
         </div>
       </section>
