@@ -94,6 +94,10 @@ body {
   text-rendering: optimizeLegibility;
 }
 
+.App-footer {
+background-color: #aca5a5;
+}
+
 
 
 
