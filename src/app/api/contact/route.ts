@@ -4,7 +4,7 @@ export async function POST(req: NextRequest) {
   try {
     const body = await req.json();
 
-    const lambdaUrl = 'https://36pekstyczqpghl3tvtptkdg240pxmqi.lambda-url.ap-northeast-1.on.aws/';
+    const lambdaUrl = 'https://jxbufmh6yyxllvnudvlgxvq7o40qhxiq.lambda-url.ap-northeast-1.on.aws/';
 
     const response = await fetch(lambdaUrl, {
       method: 'POST',
